@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+float usd, pound, inr;
+printf("Enter amount in USD: ");
+scanf("%f", &usd);
+inr = usd * 48;
+pound = inr / 70;
+printf("%.2f USD = %.2f Pound\n", usd, pound);
+return 0;
+}
