@@ -7,4 +7,5 @@ scanf ("%f",&r);
 float a;
  a=r*r*3.14;
 printf("area is %f \n",a);
+
 }
